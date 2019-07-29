@@ -63,7 +63,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	void UpdateScore() {
-		scoreText.text = "Score: " + score;
+		scoreText.text = "Points: " + score;
         if (score >= WinningScore)
         {
             gameoverText = "You Win! \n Game created by Nabil Sekirime";
